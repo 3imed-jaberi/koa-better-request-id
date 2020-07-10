@@ -1,1 +1,51 @@
-# init 🚧 .. 
+{
+  "name": "@koa/request-id",
+  "version": "0.1.0",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3imed-jaberi/koa-request-id.git"
+  },
+  "scripts": {
+    "lint": "xo --prettier --space --extends xo-lass --ignore index.spec.js",
+    "test": "mocha index.spec.js",
+    "coverage": "nyc npm run test",
+    "ci": "npm run coverage"
+  },
+  "keywords": [
+    "request-id",
+    "request-uuid",
+    "x-request-id",
+    "uuid",
+    "middleware",
+    "koa"
+  ],
+  "author": {
+    "name": "imed jaberi",
+    "email": "imed-jaberi@outlook.com",
+    "url": "https://www.3imed-jaberi.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "uuid": "^8.2.0"
+  },
+  "devDependencies": {
+    "eslint-config-xo-lass": "^1.0.3",
+    "koa": "^2.13.0",
+    "mocha": "^7.1.1",
+    "nyc": "^15.1.0",
+    "rimraf": "^3.0.2",
+    "supertest": "^4.0.2",
+    "xo": "0.25.4"
+  },
+  "enignes": {
+    "node": ">= 8.1.4"
+  },
+  "bugs": {
+    "url": "https://github.com/3imed-jaberi/koa-request-id/issues"
+  },
+  "homepage": "https://github.com/3imed-jaberi/koa-request-id#readme"
+}
