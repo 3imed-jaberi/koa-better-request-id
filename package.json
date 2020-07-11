@@ -1,5 +1,5 @@
 {
-  "name": "@koa/request-id",
+  "name": "koa-better-request-id",
   "version": "0.1.0",
   "main": "index.js",
   "files": [
@@ -7,7 +7,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/3imed-jaberi/koa-request-id.git"
+    "url": "git+https://github.com/3imed-jaberi/koa-better-request-id.git"
   },
   "scripts": {
     "lint": "xo --prettier --space --extends xo-lass --ignore index.spec.js",
@@ -47,7 +47,7 @@
     "node": ">= 10"
   },
   "bugs": {
-    "url": "https://github.com/3imed-jaberi/koa-request-id/issues"
+    "url": "https://github.com/3imed-jaberi/koa-better-request-id/issues"
   },
-  "homepage": "https://github.com/3imed-jaberi/koa-request-id#readme"
+  "homepage": "https://github.com/3imed-jaberi/koa-better-request-id#readme"
 }
