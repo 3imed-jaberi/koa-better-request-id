@@ -1,4 +1,4 @@
-# @koa/request-id
+# koa-better-request-id
 ---
 
 [![Build Status][travis-img]][travis-url]
@@ -9,15 +9,15 @@
 
 <!-- ***************** -->
 
-[travis-img]: https://travis-ci.org/3imed-jaberi/koa-request-id.svg?branch=master
-[travis-url]: https://travis-ci.org/3imed-jaberi/koa-request-id
-[coverage-img]: https://coveralls.io/repos/github/3imed-jaberi/koa-request-id/badge.svg?branch=master
-[coverage-url]: https://coveralls.io/github/3imed-jaberi/koa-request-id?branch=master
-[npm-badge]: https://img.shields.io/npm/v/@koa/request-id.svg?style=flat
-[npm-url]: https://www.npmjs.com/package/@koa/request-id
+[travis-img]: https://travis-ci.org/3imed-jaberi/koa-better-request-id.svg?branch=master
+[travis-url]: https://travis-ci.org/3imed-jaberi/koa-better-request-id
+[coverage-img]: https://coveralls.io/repos/github/3imed-jaberi/koa-better-request-id/badge.svg?branch=master
+[coverage-url]: https://coveralls.io/github/3imed-jaberi/koa-better-request-id?branch=master
+[npm-badge]: https://img.shields.io/npm/v/koa-better-request-id.svg?style=flat
+[npm-url]: https://www.npmjs.com/package/koa-better-request-id
 [license-badge]: https://img.shields.io/badge/license-MIT-green.svg?style=flat-square
-[license-url]: https://github.com/3imed-jaberi/koa-request-id/blob/master/LICENSE
-[code-size-badge]: https://img.shields.io/github/languages/code-size/3imed-jaberi/koa-request-id
+[license-url]: https://github.com/3imed-jaberi/koa-better-request-id/blob/master/LICENSE
+[code-size-badge]: https://img.shields.io/github/languages/code-size/3imed-jaberi/koa-better-request-id
 [express-request-id]: https://www.npmjs.com/package/express-request-id
 [koa-x-request-id]: https://www.npmjs.com/package/koa-x-request-id
 
@@ -35,9 +35,9 @@ ID is then passed to your application as an HTTP header called X-Request-Id.
 
 ```bash
 # npm ..
-$ npm install @koa/request-id
+$ npm install koa-better-request-id
 # yarn ..
-$ yarn add @koa/request-id
+$ yarn add koa-better-request-id
 ```
 
 
@@ -47,7 +47,7 @@ This is a practical example of how to use.
 
 ```javascript
 const Koa = require('koa');
-const xRequestId = require ('@koa/request-id');
+const xRequestId = require ('koa-better-request-id');
 const app = new Koa();
 
 // You can pass options object to xRequestId
