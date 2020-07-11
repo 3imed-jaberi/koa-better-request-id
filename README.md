@@ -23,7 +23,7 @@
 
 <!-- ***************** -->
 
-If [`express-request-id`][express-request-id] and [`x-request-id`][koa-x-request-id] have a baby ❤️.
+**If [`express-request-id`][express-request-id] and [`x-request-id`][koa-x-request-id] have a baby ❤️.**
 
 <small> 
 Generates a unique Request ID for every incoming HTTP request. This unique <br />
