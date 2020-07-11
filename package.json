@@ -11,7 +11,9 @@
   },
   "scripts": {
     "lint": "xo --prettier --space --extends xo-lass --ignore index.spec.js",
+    "pretest": "npm run lint",
     "test": "mocha index.spec.js",
+    "precoverage": "rimraf .nyc_output coverage",
     "coverage": "nyc npm run test",
     "ci": "npm run coverage"
   },
