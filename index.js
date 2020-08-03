@@ -1,5 +1,5 @@
 /*!
- * @koa/request-id
+ * koa-better-request-id
  * Copyright(c) 20020 Imed Jaberi
  * MIT Licensed
  */
