@@ -1,6 +1,6 @@
 # CHANGE LOG
 
-### v1.1.0 (11 July 2020)
+### v1.1.0 (3 Aout 2020)
 
   * fix vulnerability
 
