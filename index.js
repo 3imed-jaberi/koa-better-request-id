@@ -1,6 +1,6 @@
 /*!
  * koa-better-request-id
- * Copyright(c) 20020 Imed Jaberi
+ * Copyright(c) 2020-2022 Imed Jaberi
  * MIT Licensed
  */
 
@@ -26,7 +26,6 @@ module.exports = xRequestId;
  *
  * @api public
  * */
-
 function xRequestId(options) {
   options = options || {};
 
@@ -50,7 +49,7 @@ function xRequestId(options) {
   options.headerName = options.headerName || 'X-Request-Id';
   options.attributeName = options.attributeName || 'id';
 
-  return function(ctx, next) {
+  return function (ctx, next) {
     ctx.request[options.attributeName] =
       ctx.id ||
       ctx.requestId ||
@@ -78,7 +77,6 @@ function xRequestId(options) {
  *                    specificate of the uuid version.
  * @api private
  * */
-
 function uuidGenerator(options) {
   const id = uuid[options.uuidVersion](
     options.uuidOpts,
