@@ -1,6 +1,6 @@
 {
   "name": "koa-better-request-id",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "main": "index.js",
   "files": [
     "index.js"
@@ -32,19 +32,19 @@
   },
   "license": "MIT",
   "dependencies": {
-    "uuid": "^8.3.0"
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
-    "eslint-config-xo-lass": "^1.0.3",
-    "koa": "^2.13.0",
-    "mocha": "^7.1.1",
+    "eslint-config-xo-lass": "^1.0.6",
+    "koa": "^2.13.4",
+    "mocha": "^9.2.2",
     "nyc": "^15.1.0",
     "rimraf": "^3.0.2",
-    "supertest": "^4.0.2",
-    "xo": "0.25.4"
+    "supertest": "^6.2.2",
+    "xo": "^0.38.2"
   },
   "enignes": {
-    "node": ">= 10"
+    "node": ">= 12"
   },
   "bugs": {
     "url": "https://github.com/3imed-jaberi/koa-better-request-id/issues"
