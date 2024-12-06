@@ -12,7 +12,7 @@
   "scripts": {
     "lint": "xo --prettier --space --extends xo-lass --ignore index.spec.js",
     "pretest": "npm run lint",
-    "test": "mocha index.spec.js",
+    "test": "node --test \"index.spec.js\"",
     "precoverage": "rimraf .nyc_output coverage",
     "coverage": "nyc npm run test",
     "ci": "npm run coverage"
@@ -32,19 +32,18 @@
   },
   "license": "MIT",
   "dependencies": {
-    "uuid": "^8.3.2"
+    "uuid": "^11.0.3"
   },
   "devDependencies": {
     "eslint-config-xo-lass": "^1.0.6",
-    "koa": "^2.13.4",
-    "mocha": "^9.2.2",
-    "nyc": "^15.1.0",
-    "rimraf": "^3.0.2",
-    "supertest": "^6.2.2",
+    "koa": "^2.15.3",
+    "nyc": "^17.1.0",
+    "rimraf": "^5.0.10",
+    "supertest": "^7.0.0",
     "xo": "^0.38.2"
   },
   "enignes": {
-    "node": ">= 12"
+    "node": ">= 18"
   },
   "bugs": {
     "url": "https://github.com/3imed-jaberi/koa-better-request-id/issues"
