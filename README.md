@@ -25,11 +25,9 @@
 
 **If [`express-request-id`][express-request-id] and [`x-request-id`][koa-x-request-id] have a baby ❤️.**
 
+Generates a unique Request ID for every incoming HTTP request. This unique ID is then passed to your application as an HTTP header called 'X-Request-Id'.
 
-> Generates a unique Request ID for every incoming HTTP request. This unique <br />
-> ID is then passed to your application as an HTTP header called X-Request-Id.
-
-
+> Support Node.js 18+.
 
 ## `Installation`
 
@@ -39,7 +37,6 @@ $ npm install koa-better-request-id
 # yarn ..
 $ yarn add koa-better-request-id
 ```
-
 
 ## `Usage`
 
@@ -67,8 +64,8 @@ You can pass an object that contains these keys to the **xRequestId** middleware
   - `headerName` &mdash; (String) Header name to use. `default to 'X-Request-Id'`
   - `attributeName` &mdash; (String) Attribute name used for the identifier on the ctx/request object `default to 'id'`
 
-
 #### License
+
 ---
 
-[MIT](LICENSE) &copy;	[Imed Jaberi](https://github.com/3imed-jaberi)
+[MIT](LICENSE) &copy; [Imed Jaberi](https://github.com/3imed-jaberi)
