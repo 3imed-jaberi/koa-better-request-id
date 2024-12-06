@@ -1,6 +1,6 @@
 # CHANGE LOG
 
-## v1.3.0 (06 Dec 2024)
+## v2.0.0 (06 Dec 2024)
 
 - fix vulnerability by update deps.
 - drop support for all node.js versions less than 18.
