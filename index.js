@@ -3,19 +3,16 @@
  * Copyright(c) 2020-2022 Imed Jaberi
  * MIT Licensed
  */
-
 'use strict';
 
 /**
  * Module dependencies.
  */
-
 const uuid = require('uuid');
 
 /**
  * Expose `xRequestId()`.
  */
-
 module.exports = xRequestId;
 
 /**
@@ -72,9 +69,8 @@ function xRequestId(options) {
 /**
  * Default function to generate an unique id.
  *
- * @options {Object}: same as uuid options object
- *                    with one plus option to
- *                    specificate of the uuid version.
+ * @options {Object} same as uuid options object with one plus option to specificate of the uuid version.
+ *
  * @api private
  * */
 function uuidGenerator(options) {
@@ -84,6 +80,6 @@ function uuidGenerator(options) {
     options.uuidOffset
   );
 
-  // eslint-disable-next-line no-useless-escape
+  // eslint-disable-next-line no-useless-escape, unicorn/better-regex
   return options.noHyphen ? id.replace(/\-/g, '') : id;
 }
